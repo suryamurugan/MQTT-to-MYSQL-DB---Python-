@@ -1,11 +1,9 @@
 '''PYTHON SCRIPT TO SUBSCRIBE TO A TOPIC AND INSERT INTO MYSQL DATABASE'''
 
-
 import mysql.connector
 import paho.mqtt.client as mqtt
 import json
 import datetime
-
 
 #SQL CONNECTOR 
 mydb = mysql.connector.connect(
